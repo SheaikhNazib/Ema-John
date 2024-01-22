@@ -1,0 +1,21 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+
+.products-container {
+    /* width: 300px;
+    height: 508px;
+    border-radius: 8px;
+    border: 1px solid #95A0A7; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    
+}
+
+.products-container img {
+    width: 286px;
+    height: 286px;
+}
